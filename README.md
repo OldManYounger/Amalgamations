@@ -1,6 +1,6 @@
 # Amalgamations
 
-Amalgamations is a mostly-sandbox modpack with extensive end game quests and progression. Strive to create the various Amalgamations and achieve the pinnacle.
+Amalgamations is a mostly-sandbox modpack with extensive (planned) end-game quests and progression. Strive to create the various Amalgamations and achieve the pinnacle.
 
 ## Pack Details
 
@@ -14,4 +14,5 @@ Amalgamations is a mostly-sandbox modpack with extensive end game quests and pro
 
 Use the issue templates when reporting crashes, recipe issues, quest issues, or general modpack bugs.
 
+##
 [![CurseForge](https://img.shields.io/badge/CurseForge-Amalgamations-F16436?logo=curseforge&logoColor=white)](https://www.curseforge.com/minecraft/modpacks/amalgamations)
