@@ -2,18 +2,16 @@
 
 Amalgamations is a mostly-sandbox modpack with extensive end game quests and progression. Strive to create the various Amalgamations and achieve the pinnacle.
 
-## Versions
+## Pack Details
 
-Minecraft: 1.21.1  
-NeoForge: 21.1.241  
-Pack Version: 0.1.4
-
-## Repository Purpose
-
-This repository tracks the source files for the modpack, including changelogs, configs, default configs, and KubeJS scripts.
-
-Downloaded mod jars, saves, logs, screenshots, caches, and local launcher state are not tracked.
+| Component | Version |
+| --- | --- |
+| Minecraft | 1.21.1 |
+| NeoForge | 21.1.241 |
+| Pack Version | 0.1.4 |
 
 ## Issues
 
 Use the issue templates when reporting crashes, recipe issues, quest issues, or general modpack bugs.
+
+[![CurseForge](https://img.shields.io/badge/CurseForge-Amalgamations-F16436?logo=curseforge&logoColor=white)](https://www.curseforge.com/minecraft/modpacks/amalgamations)
