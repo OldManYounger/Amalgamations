@@ -2,23 +2,23 @@
 
 ## Added
 
-- Added initial GitHub source repository structure.
-- Added issue templates for crash reports and modpack bugs.
+- Added initial GitHub source repository structure
+- Added issue templates for crash reports and modpack bugs
 
 ## Changed
 
-- Moved tracked pack source into root-level `config`, `defaultconfigs`, and `kubejs` folders.
-- Updated repository layout to follow an ATM-style modpack source structure.
+- Moved tracked pack source into root-level `config`, `defaultconfigs`, and `kubejs` folders
+- Updated repository layout to follow an ATM-style modpack source structure
 
 ## Fixed
 
-- Fixed missing tracked changelog folder by adding this changelog file.
+- Fixed missing tracked changelog folder by adding this changelog file
 
 ## Removed
 
-- Removed launcher/runtime files from the GitHub source layout.
+- Removed launcher/runtime files from the GitHub source layout
 
 ## Notes
 
-- Downloaded mod jars are not tracked in this repository.
-- Playable builds should be published separately through GitHub Releases or a launcher export.
+- Downloaded mod jars are not tracked in this repository
+- Playable builds should be published separately through GitHub Releases or a launcher export
