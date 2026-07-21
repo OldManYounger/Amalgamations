@@ -19,6 +19,3 @@
 - Removed launcher/runtime files from the GitHub source layout
 
 ## Notes
-
-- Downloaded mod jars are not tracked in this repository
-- Playable builds should be published separately through GitHub Releases or a launcher export
