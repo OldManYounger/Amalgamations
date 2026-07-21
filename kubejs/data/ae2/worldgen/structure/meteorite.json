@@ -1,0 +1,6 @@
+{
+  "type": "ae2:ae2mtrt",
+  "biomes": "#minecraft:is_never",
+  "spawn_overrides": {},
+  "step": "top_layer_modification"
+}

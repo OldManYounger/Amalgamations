@@ -1,0 +1,35 @@
+{
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 4,
+      "item": "minecraft:redstone"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:nether_star"
+    },
+    {
+      "count": 2,
+      "tag": "malum:runewood_planks"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "minecraft:prismarine_shard"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:heart_of_the_sea"
+  },
+  "spirits": [
+    {
+      "type": "malum:aqueous",
+      "count": 4
+    },
+    {
+      "type": "malum:arcane",
+      "count": 2
+    }
+  ]
+}

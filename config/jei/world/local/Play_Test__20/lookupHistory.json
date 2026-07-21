@@ -1,0 +1,5 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"createpropulsion:vector_thruster"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"alltheores:platinum_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

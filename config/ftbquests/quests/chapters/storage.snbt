@@ -1,0 +1,113 @@
+{
+	autofocus_id: "3C1DEFB81DC4D4B3"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage"
+	group: "24F5EB2AF9BBAFE3"
+	icon: {
+		id: "minecraft:chest"
+	}
+	id: "722E38C5D047E0A1"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "3C1DEFB81DC4D4B3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "59BE8D382D436855"
+					type: "loot"
+				}
+				{
+					id: "6A206384802349A3"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "5CB11A7A967FE38A"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C1DEFB81DC4D4B3"]
+			id: "5AA38F2CF939E7FC"
+			rewards: [
+				{
+					id: "63B53FE9087C8B5D"
+					item: {
+						count: 1
+						id: "dankstorage:dank_4"
+					}
+					type: "item"
+				}
+				{
+					id: "11F930A06CE49F4B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "098D3DAE1843A362"
+				item: { count: 1, id: "dankstorage:dank_1" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3C1DEFB81DC4D4B3"]
+			id: "68A9032C7C866DA2"
+			rewards: [{
+				id: "22439FE3AB441D6F"
+				item: {
+					count: 1
+					id: "pocketstorage:psu_2"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "779F9F5BB1F17360"
+				item: { count: 1, id: "pocketstorage:psu_1" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3C1DEFB81DC4D4B3"]
+			id: "51879C8C4FB122AE"
+			rewards: [
+				{
+					id: "70A403BE84E13BB4"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+				{
+					id: "0B4814A896A31D8C"
+					item: {
+						count: 1
+						id: "enderstorage:ender_pouch"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5869A698469B48A7"
+				item: { count: 1, id: "enderstorage:ender_chest" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+	]
+}

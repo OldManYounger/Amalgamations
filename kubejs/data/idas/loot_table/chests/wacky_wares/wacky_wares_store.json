@@ -1,0 +1,55 @@
+{
+    "type":  "minecraft:chest",
+    "pools":  [
+                  {
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:loot_table",
+                                          "weight":  10,
+                                          "value":  "idas:chests/wacky_wares/wacky_wares_mining"
+                                      },
+                                      {
+                                          "type":  "minecraft:loot_table",
+                                          "weight":  10,
+                                          "value":  "idas:chests/wacky_wares/wacky_wares_gardening"
+                                      },
+                                      {
+                                          "type":  "minecraft:loot_table",
+                                          "weight":  10,
+                                          "value":  "idas:chests/wacky_wares/wacky_wares_farming"
+                                      },
+                                      {
+                                          "type":  "minecraft:loot_table",
+                                          "weight":  10,
+                                          "value":  "idas:chests/wacky_wares/wacky_wares_fishing"
+                                      },
+                                      {
+                                          "type":  "minecraft:loot_table",
+                                          "weight":  10,
+                                          "value":  "idas:chests/wacky_wares/wacky_wares_crystals"
+                                      },
+                                      {
+                                          "type":  "minecraft:loot_table",
+                                          "weight":  10,
+                                          "value":  "idas:chests/wacky_wares/wacky_wares_furniture"
+                                      },
+                                      {
+                                          "type":  "minecraft:loot_table",
+                                          "weight":  10,
+                                          "value":  "idas:chests/wacky_wares/wacky_wares_create_machines"
+                                      },
+                                      {
+                                          "type":  "minecraft:loot_table",
+                                          "weight":  10,
+                                          "value":  "idas:chests/wacky_wares/wacky_wares_animals"
+                                      },
+                                      {
+                                          "type":  "minecraft:loot_table",
+                                          "weight":  10,
+                                          "value":  "idas:chests/wacky_wares/wacky_wares_misc"
+                                      }
+                                  ]
+                  }
+              ]
+}

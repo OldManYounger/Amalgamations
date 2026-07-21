@@ -1,0 +1,41 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "OldManYounger",
+      "uniqueId": "e8bbca6e-2158-4e47-a290-a8fa415729a1"
+    },
+    "time": 1782669295291,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/XigGXYwnoT"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "OldManYounger",
+      "uniqueId": "e8bbca6e-2158-4e47-a290-a8fa415729a1"
+    },
+    "time": 1782669174509,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/3dswbJWrB0"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "OldManYounger",
+      "uniqueId": "e8bbca6e-2158-4e47-a290-a8fa415729a1"
+    },
+    "time": 1782669132747,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/H4q3vJPDhx"
+    }
+  }
+]

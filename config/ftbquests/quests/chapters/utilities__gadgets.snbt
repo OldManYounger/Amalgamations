@@ -1,0 +1,534 @@
+{
+	autofocus_id: "031488587E2D236D"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "utilities__gadgets"
+	group: "24F5EB2AF9BBAFE3"
+	icon: {
+		id: "crafting_on_a_stick:crafting_table"
+	}
+	id: "4FF2586759E0DDF8"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2057E86F98F6630A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "10F90AC7439BE43B"
+					table_id: 5059608323968766604L
+					type: "random"
+				}
+				{
+					id: "11CD4B5CF9A923A6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "66AD8C439B98E6FC"
+				item: { count: 1, id: "akashictome:tome" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "711252DF46C4B5B6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0CEB928F67FF6851"
+					table_id: 5059608323968766604L
+					type: "loot"
+				}
+				{
+					id: "494818EA0B34902F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "165C547FD34011A3"
+				item: { count: 1, id: "charginggadgets:charging_station" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			icon: {
+				components: {
+					"easy_villagers:villager": { }
+				}
+				id: "easy_villagers:villager"
+			}
+			id: "6D4B8FD242D05A09"
+			rewards: [
+				{
+					id: "601A3833FAA0BF23"
+					item: {
+						count: 1
+						id: "easy_villagers:auto_trader"
+					}
+					type: "item"
+				}
+				{
+					id: "0896E4AFD20D9998"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "20E1CFDDF35A027C"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "5B4D639D878EF0CC"
+			rewards: [
+				{
+					id: "7275A8845D2C21F9"
+					item: {
+						count: 1
+						id: "entangled:item"
+					}
+					type: "item"
+				}
+				{
+					id: "3BA9B878F876CD1F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "221CBBAE4A19F57E"
+				item: { count: 1, id: "entangled:block" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			id: "22FCE2CAFF9A6669"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4AEB999E8EFA4D10"
+					table_id: 5059608323968766604L
+					type: "loot"
+				}
+				{
+					id: "20595E00742554B6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "532A07EB19E0AF6F"
+				item: { count: 1, id: "explorerscompass:explorerscompass" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			id: "06BFDFFC74C57C80"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "070748DD5F049574"
+					table_id: 5059608323968766604L
+					type: "loot"
+				}
+				{
+					id: "1FC1B5A58AA3F286"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "72CA0762017F7290"
+				item: { count: 1, id: "naturescompass:naturescompass" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			id: "5883B55792E9C46A"
+			rewards: [
+				{
+					id: "210258D1DE829CCD"
+					item: {
+						count: 1
+						id: "fireproofboats:warped_boat"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2AA2B5DA3FE1AA39"
+					table_id: 5059608323968766604L
+					type: "loot"
+				}
+				{
+					id: "3C7BED72F450FAB3"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6DBB788516477772"
+				item: { count: 1, id: "fireproofboats:crimson_boat" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				id: "itemcollectors:basic_collector"
+			}
+			id: "54B911CEA9A81040"
+			rewards: [
+				{
+					id: "15DA831B1DAAFD74"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+				{
+					id: "7583C2FAC857D173"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "23DE3BE1E4536C9D"
+				item: { }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			id: "31CED99D593BC7B5"
+			rewards: [
+				{
+					id: "5EA23DE7E41E9A4E"
+					item: {
+						count: 1
+						id: "mininggadgets:mininggadget_fancy"
+					}
+					type: "item"
+				}
+				{
+					id: "496E424D7A800BC8"
+					item: {
+						count: 1
+						id: "mininggadgets:upgrade_efficiency_3"
+					}
+					type: "item"
+				}
+				{
+					id: "6F1740AEF847C9EC"
+					item: {
+						count: 1
+						id: "mininggadgets:upgrade_range_1"
+					}
+					type: "item"
+				}
+				{
+					id: "7DEB1383417BBC69"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "47D540A11943867A"
+				item: { count: 1, id: "mininggadgets:mininggadget_simple" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			id: "18357A3E4DC5FAB9"
+			rewards: [
+				{
+					id: "2FA8AA9ACF268A6F"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+				{
+					id: "75AB68DCD4529033"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2735FD420A83FCDF"
+				item: { count: 1, id: "mob_grinding_utils:fan" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			icon: {
+				id: "pylons:expulsion_pylon"
+			}
+			id: "281FE9A24D0F35C1"
+			rewards: [
+				{
+					id: "44B015C103E28309"
+					item: {
+						count: 1
+						id: "pylons:infusion_pylon"
+					}
+					type: "item"
+				}
+				{
+					id: "732FA5893A304DBF"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "00F351A8550C0E1D"
+				item: { }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			id: "4117C1CB7E16CF55"
+			rewards: [
+				{
+					count: 64
+					id: "16697BFF492E9E66"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3664E8F75433E4A2"
+					table_id: 5059608323968766604L
+					type: "loot"
+				}
+				{
+					id: "1F111113549815F7"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1ECD4B4B30AFF5DD"
+				item: { count: 1, id: "redstonepen:pen" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			id: "4E3F49393968AFCB"
+			rewards: [
+				{
+					id: "2CAB675D7CCA46CB"
+					item: {
+						count: 1
+						id: "restrictions:attractor"
+					}
+					type: "item"
+				}
+				{
+					id: "2B01FBD8F5454570"
+					item: {
+						count: 1
+						id: "restrictions:glassboots"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3B4AF4E38467DEE1"
+				item: { count: 1, id: "restrictions:pusher" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			id: "4CD64EE9844EC3EC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "26D9C6E0EA580210"
+					table_id: 5059608323968766604L
+					type: "loot"
+				}
+				{
+					id: "04FF040422083FC1"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6DA9A4F4C21DB60A"
+				item: { count: 1, id: "shrink:shrinking_device" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "57B0857B32CF546B"
+			rewards: [
+				{
+					id: "41C28C39AED47250"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3BF9365D4311D73C"
+					table_id: 5059608323968766604L
+					type: "loot"
+				}
+				{
+					id: "7150FE74DA6331EA"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7045FA86260602A9"
+				item: { count: 1, id: "simplemagnets:basicmagnet" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "3378648D994BCCCC"
+			rewards: [
+				{
+					command: "/tiab time add @p 1000000"
+					id: "3F86948B790BE0D5"
+					type: "command"
+				}
+				{
+					id: "3659E76E1A47C7F4"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0D36E938BAD4E3BC"
+				item: { count: 1, id: "tiab:time_in_a_bottle" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			id: "031488587E2D236D"
+			rewards: [
+				{
+					id: "643D49252204DDAC"
+					item: {
+						count: 1
+						id: "torchmaster:feral_flare_lantern"
+					}
+					type: "item"
+				}
+				{
+					id: "077BB797C740897C"
+					item: {
+						count: 1
+						id: "torchmaster:frozen_pearl"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0E084FD5B597B68E"
+				item: { count: 1, id: "torchmaster:megatorch" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "69F90495D5020E04"
+			rewards: [
+				{
+					id: "14EA90BC95898533"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7729AE6E790A63EC"
+					item: {
+						count: 1
+						id: "tempad:chronon_battery"
+					}
+					type: "item"
+				}
+				{
+					id: "1C5C368FB20C00AF"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "7F3AF1623FCDE12D"
+				item: { count: 1, id: "tempad:tempad" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+	]
+}

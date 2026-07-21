@@ -1,0 +1,17 @@
+{
+  "type": "apotheosis:affix_loot_entry",
+  "stack": {
+    "count": 1,
+    "id": "shroud:eventide_leggings"
+  },
+  "weights": {
+    "summit": {
+      "quality": 1.25,
+      "weight": 8
+    },
+    "pinnacle": {
+      "quality": 2.5,
+      "weight": 40
+    }
+  }
+}

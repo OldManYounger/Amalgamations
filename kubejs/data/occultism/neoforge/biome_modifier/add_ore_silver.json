@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#neoforge:none",
+  "features": "occultism:ore_silver",
+  "step": "underground_ores"
+}

@@ -1,0 +1,279 @@
+{
+	autofocus_id: "787980D578679D88"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "afterlife"
+	group: ""
+	icon: {
+		id: "create:brass_hand"
+	}
+	id: "2F31127A36035996"
+	images: [{
+		height: 2.0d
+		image: "kubejs:textures/quests/amalgamations_logo_2.png"
+		rotation: 0.0d
+		width: 12.0d
+		x: -0.5d
+		y: -3.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "create:item/brass_hand"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 0.7d
+			id: "787980D578679D88"
+			rewards: [{
+				id: "489FD5E5D42AC992"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "0E24147DBA49CB0C"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["787980D578679D88"]
+			icon: {
+				components: {
+					"ftbquests:icon": "apotheosis:textures/gui/book/question_mark.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "384C1744F2983945"
+			rewards: [{
+				id: "68250545087F2CE2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "66833654A9517724"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["787980D578679D88"]
+			icon: {
+				id: "minecraft:map"
+			}
+			id: "69A7E5A62835E08C"
+			rewards: [{
+				id: "10B352E58363FBAC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1D7DFFC95AB20746"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["787980D578679D88"]
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:item/command_block_minecart"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2ECE444244CF2564"
+			rewards: [{
+				id: "09B38347B0CB1DE6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "491BA0DB36840C32"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["787980D578679D88"]
+			icon: {
+				components: {
+					"ftbquests:icon": "supplementaries:item/key"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "59A2CF700C9C9C4A"
+			rewards: [{
+				id: "2D0F8EFB9B88AF86"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "019B04F04186D6E3"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["787980D578679D88"]
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "09BC4CB59FE2B294"
+			rewards: [{
+				id: "02F564257F665B75"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5749538923604E09"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["787980D578679D88"]
+			icon: {
+				id: "pneumaticcraft:chunkloader_upgrade"
+			}
+			id: "0CF58EA63EDC5972"
+			rewards: [{
+				id: "63B46FF2356359FA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7E2D9BE6B89765A9"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["787980D578679D88"]
+			icon: {
+				id: "minecraft:netherite_pickaxe"
+			}
+			id: "4D91F66D5DFCC70C"
+			rewards: [{
+				id: "521C55142C71C000"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "09DF9AA90CF506ED"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["787980D578679D88"]
+			icon: {
+				id: "minecraft:raw_iron"
+			}
+			id: "03B4EFD0201CA1E1"
+			rewards: [{
+				id: "0B130FF461B6B4B0"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "328B209CEDFA48E3"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["787980D578679D88"]
+			icon: {
+				id: "mcwholidays:small_gravestone"
+			}
+			id: "09F82CE96646C842"
+			rewards: [{
+				id: "2B2017B7AC9F8F3E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "14942858CFFEE322"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["787980D578679D88"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/sort_az"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 0.8d
+			id: "02E59C77ACF40D97"
+			rewards: [{
+				id: "193BE86AD4BE4504"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4C62F119841DC0AA"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["787980D578679D88"]
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "2AE7B2DB80E511FB"
+			rewards: [{
+				id: "5D390FC9F5AB423D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "517F78B71FDB888A"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["787980D578679D88"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbchunks:textures/waypoint_death.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 0.8d
+			id: "735AAC6520DEE24E"
+			rewards: [{
+				id: "749BE35F3FFFFE7F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "583CA4C7C27FDA24"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+	]
+}

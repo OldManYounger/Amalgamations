@@ -1,0 +1,269 @@
+{
+	autofocus_id: "6A55F19AF117B105"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "testing_1"
+	group: "60DD9D21BF07ABE3"
+	icon: {
+		id: "pipez:infinity_upgrade"
+	}
+	id: "0416AD4559E16DD3"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["6A55F19AF117B105"]
+			id: "4EA92BDD02599358"
+			rewards: [
+				{
+					count: 64
+					id: "792569AD9562005B"
+					item: {
+						count: 1
+						id: "avaritia:cosmic_meatballs"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "66B0ACBED382320C"
+					item: {
+						count: 1
+						id: "avaritia:ultimate_stew"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "76D4BC1DC8C36A5A"
+				item: { count: 1, id: "kubejs:food_amalgamation" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6A55F19AF117B105"]
+			id: "51DFC0B2CC06E742"
+			rewards: [
+				{
+					id: "2247E28663E9F327"
+					item: {
+						count: 1
+						id: "functionalstorage:creative_vending_upgrade"
+					}
+					type: "item"
+				}
+				{
+					id: "0C8800C9712D45CA"
+					item: {
+						components: {
+							"mekanism:energy": {
+								energy_containers: [L;9223372036854775807L]
+							}
+							"mekanism:side_config": {
+								config: {
+									energy: {
+										eject: 1b
+										side: {
+											back: "output"
+											bottom: "output"
+											front: "output"
+											left: "output"
+											right: "output"
+											top: "output"
+										}
+									}
+									items: {
+										side: {
+											back: "input"
+											bottom: "input"
+											front: "output"
+											left: "input"
+											right: "input"
+											top: "input"
+										}
+									}
+								}
+							}
+						}
+						count: 1
+						id: "mekanism:creative_energy_cube"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "05FA297D3F300CDC"
+				item: { count: 1, id: "kubejs:tech_amalgamation" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "6A55F19AF117B105"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7BD5DC088C5D6807"
+					table_id: 5059608323968766604L
+					type: "loot"
+				}
+				{
+					id: "157D5E2738479DF1"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "4C035342B5DB1235"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6A55F19AF117B105"]
+			id: "4553650D55574C08"
+			rewards: [
+				{
+					count: 10
+					id: "7E7095FD5F3026AF"
+					item: {
+						count: 1
+						id: "ae2:creative_storage_cell"
+					}
+					type: "item"
+				}
+				{
+					id: "3410DAE6E30544A8"
+					item: {
+						count: 1
+						id: "enderdrives:ender_disk_creative"
+					}
+					type: "item"
+				}
+				{
+					id: "731647EBBAA2347E"
+					type: "xp"
+					xp: 10000
+				}
+			]
+			tasks: [{
+				id: "5E2593C76CF5C8C0"
+				item: { count: 1, id: "kubejs:applied_energistics_amalgamation" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6A55F19AF117B105"]
+			id: "1682CC05C30C7786"
+			rewards: [
+				{
+					id: "42089AB0CB9AF65C"
+					item: {
+						count: 1
+						id: "mekanism:creative_fluid_tank"
+					}
+					type: "item"
+				}
+				{
+					id: "0EDBCF4060414E2C"
+					item: {
+						components: {
+							"mekanism:energy": {
+								energy_containers: [L;9223372036854775807L]
+							}
+							"mekanism:side_config": {
+								config: {
+									energy: {
+										eject: 1b
+										side: {
+											back: "output"
+											bottom: "output"
+											front: "output"
+											left: "output"
+											right: "output"
+											top: "output"
+										}
+									}
+									items: {
+										side: {
+											back: "input"
+											bottom: "input"
+											front: "output"
+											left: "input"
+											right: "input"
+											top: "input"
+										}
+									}
+								}
+							}
+						}
+						count: 1
+						id: "mekanism:creative_energy_cube"
+					}
+					type: "item"
+				}
+				{
+					id: "262CE4EE3696760D"
+					type: "xp"
+					xp: 10000
+				}
+			]
+			tasks: [{
+				id: "492BE2511D30B568"
+				item: { count: 1, id: "kubejs:mekanism_amalgamation" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6A55F19AF117B105"]
+			id: "427C32B94DE6341B"
+			rewards: [
+				{
+					id: "004D1734157479D2"
+					item: {
+						count: 1
+						id: "simulated:creative_physics_staff"
+					}
+					type: "item"
+				}
+				{
+					id: "155CFEDFF9B08255"
+					item: {
+						count: 1
+						id: "create:creative_motor"
+					}
+					type: "item"
+				}
+				{
+					id: "4285D1D273FC18E5"
+					type: "xp"
+					xp: 10000
+				}
+			]
+			tasks: [{
+				id: "6C65D51E8675D062"
+				item: { count: 1, id: "kubejs:create_amalgamation" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+	]
+}

@@ -1,0 +1,38 @@
+name: Crash
+description: Report a game crash.
+title: "[Crash]: "
+labels: ["Crash"]
+body:
+  - type: input
+    id: pack-version
+    attributes:
+      label: Pack Version
+      placeholder: "0.1.4"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Environment
+      options:
+        - Singleplayer
+        - Multiplayer server
+        - LAN
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Crash Log
+      description: Paste the crash report or upload the file.
+    validations:
+      required: true

@@ -1,0 +1,27 @@
+[
+  {
+    "mob": [ 
+      "deeperdarker:shattered",
+      "shroud:living_sculk"
+    ],
+    "attempts": 40,
+    "persecond": 0.5,
+    "amount": { "minimum": 1, "maximum": 6 },
+
+    "conditions": {
+      "dimension": [ "shroud:shroud" ],
+      "minheight": -58,
+      "maxheight": 256,
+      "norestrictions": true,
+      "maxthis": 85,
+      "validspawn": true,
+      "sturdy": true,
+      "and": {
+        "biome": [ "shroud:sculk_forest" ],
+        "seesky": false,
+        "minlight_full": 0,
+        "maxlight_full": 15
+      }
+    }
+  }
+]

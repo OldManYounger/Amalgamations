@@ -1,0 +1,139 @@
+{
+  "type": "custommachinery:custom_machine",
+  "machine": "kubejs:matter_manipulator",
+  "time": 100,
+  "requirements": [
+    {
+      "type": "custommachinery:item",
+      "ingredient": {
+        "item": "mekanism:ingot_refined_obsidian",
+        "count": 20
+      },
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "ingredient": {
+        "item": "mekanism:reprocessed_fissile_fragment",
+        "count": 16
+      },
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "ingredient": {
+        "item": "mekanism:alloy_atomic",
+        "count": 12
+      },
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "ingredient": {
+        "item": "mekanism:pellet_antimatter",
+        "count": 8
+      },
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "ingredient": {
+        "item": "mekanism:ultimate_control_circuit",
+        "count": 8
+      },
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "ingredient": {
+        "item": "mekanism:block_refined_obsidian",
+        "count": 4
+      },
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "ingredient": {
+        "item": "mekanism:ultimate_universal_cable",
+        "count": 4
+      },
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "ingredient": {
+        "item": "mekanism:ultimate_logistical_transporter",
+        "count": 4
+      },
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "ingredient": {
+        "item": "mekmm:uu_matter",
+        "count": 2
+      },
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "ingredient": {
+        "item": "mekanism:module_gravitational_modulating_unit",
+        "count": 1
+      },
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "ingredient": {
+        "item": "mekanism:module_elytra_unit",
+        "count": 1
+      },
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "ingredient": {
+        "item": "mekmm:modeler_doll",
+        "count": 1
+      },
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:energy_per_tick",
+      "amount": 20,
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "ingredient": {
+        "item": "kubejs:mekanism_amalgamation",
+        "count": 1
+      },
+      "mode": "output",
+      "slot": "item_output_1"
+    },
+    {
+      "type": "custommachinery:structure",
+      "pattern": [
+        [
+          "aaa",
+          "a a",
+          "aaa",
+          "   ",
+          " m "
+        ],
+        [
+          "a a",
+          "   ",
+          "a a",
+          "   ",
+          "   "
+        ]
+      ],
+      "keys": {
+        "a": "extendedcrafting:nether_star_block"
+      }
+    }
+  ]
+}

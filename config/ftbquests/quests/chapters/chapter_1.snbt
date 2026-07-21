@@ -1,0 +1,500 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_1"
+	group: "60DD9D21BF07ABE3"
+	icon: {
+		id: "minecraft:oak_planks"
+	}
+	id: "6BC296FBBAB0CA83"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "284FBCC71DDFB5F0"
+			rewards: [
+				{
+					count: 8
+					id: "23E02F6887A998D4"
+					item: {
+						count: 1
+						id: "minecraft:baked_potato"
+					}
+					type: "item"
+				}
+				{
+					id: "4101B454B90BCB99"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "1B3F78C8AFDD3505"
+					item: { count: 1, id: "minecraft:oak_log" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5692FA40FEF7B531"
+					item: { count: 1, id: "minecraft:spruce_log" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "52DF3643CB82B57F"
+					item: { count: 1, id: "minecraft:birch_log" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2304343C103EA793"
+					item: { count: 1, id: "minecraft:acacia_log" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3F3A42391C6CD472"
+					item: { count: 1, id: "minecraft:jungle_log" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "29A4CD8AA43FC918"
+					item: { count: 1, id: "minecraft:cherry_log" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6CA34BFB3D7B1DBC"]
+			id: "594E493C295A3DD8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2F6712C2C9B4FDA2"
+					table_id: 5059608323968766604L
+					type: "loot"
+				}
+				{
+					id: "3A973E85E7BFBC22"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "17D1ECA6B23E10C2"
+				item: { count: 1, id: "crafting_on_a_stick:crafting_table" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["284FBCC71DDFB5F0"]
+			id: "6CA34BFB3D7B1DBC"
+			rewards: [
+				{
+					count: 32
+					id: "1C7A255200D5987A"
+					item: {
+						count: 1
+						id: "minecraft:stick"
+					}
+					type: "item"
+				}
+				{
+					id: "7C41DB15FF29CFBA"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "3223F4C86AA48606"
+					item: { count: 1, id: "minecraft:oak_planks" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "113AD50262AF0C66"
+					item: { count: 1, id: "minecraft:spruce_planks" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "05A93FB42F7825FD"
+					item: { count: 1, id: "minecraft:birch_planks" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "612F90E21FCD38F0"
+					item: { count: 1, id: "minecraft:jungle_planks" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "56FD7C55CBDB9E22"
+					item: { count: 1, id: "minecraft:cherry_planks" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6CA34BFB3D7B1DBC"]
+			id: "11400B74BFD4E8BC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "35CA96AB4BCC0412"
+					table_id: 5059608323968766604L
+					type: "loot"
+				}
+				{
+					id: "0466FFA5C6A56041"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "77E1C71E444EF798"
+					item: { count: 1, id: "minecraft:wooden_sword" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5A36DA9E3F9B4D18"
+					item: { count: 1, id: "minecraft:wooden_pickaxe" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "72DC15ADC8759409"
+					item: { count: 1, id: "minecraft:wooden_shovel" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "47422725EB5A6DA5"
+					item: { count: 1, id: "minecraft:wooden_hoe" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "65E86BD08FDFC2D4"
+					item: { count: 1, id: "minecraft:wooden_axe" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["284FBCC71DDFB5F0"]
+			id: "17784402778B9036"
+			rewards: [
+				{
+					count: 64
+					id: "6B9A7014BD0A694C"
+					item: {
+						count: 1
+						id: "minecraft:cobblestone"
+					}
+					type: "item"
+				}
+				{
+					id: "6055036FBCB150BA"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "23DB6D5DE8B27AAA"
+				item: { count: 1, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17784402778B9036"]
+			icon: {
+				id: "minecraft:stone_shovel"
+			}
+			id: "18D6641A02059381"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4DAF1999A224046C"
+					table_id: 5059608323968766604L
+					type: "loot"
+				}
+				{
+					id: "72E68A3EF8C44651"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "4D50C2F79FCA5F71"
+					item: { count: 1, id: "minecraft:stone_sword" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6445E2987EA75342"
+					item: { count: 1, id: "minecraft:stone_pickaxe" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0633CFCD43087FF4"
+					item: { count: 1, id: "minecraft:stone_shovel" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "72D9352EE41C16C8"
+					item: { count: 1, id: "minecraft:stone_axe" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "48E93BEDFF745A29"
+					item: { count: 1, id: "minecraft:stone_hoe" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["17784402778B9036"]
+			id: "127063A79165455F"
+			rewards: [
+				{
+					count: 4
+					id: "0E0B9F5946BBD9FE"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "351331EBE82865FA"
+					item: {
+						count: 1
+						id: "waystones:warp_stone"
+					}
+					type: "item"
+				}
+				{
+					id: "1D8E62AA684CE2FC"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "2C5344B4B3A35872"
+					item: { count: 1, id: "waystones:waystone" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "70C180920BFB2E28"
+					item: { count: 1, id: "waystones:mossy_waystone" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4F182F996D1DB4E8"
+					item: { count: 1, id: "waystones:sandy_waystone" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["17784402778B9036"]
+			id: "57509DFCB39D80BE"
+			rewards: [
+				{
+					count: 8
+					id: "3ED6EC1E13791241"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "18D91EE7EDE0E609"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "54BA26E0FCC7CE87"
+					item: { count: 1, id: "minecraft:raw_iron" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0106DF2A9982E8B2"
+					item: { count: 1, id: "minecraft:iron_ingot" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57509DFCB39D80BE"]
+			id: "1F94E2E6D815A3E0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2C5CB1A65C79AF9D"
+					table_id: 5059608323968766604L
+					type: "loot"
+				}
+				{
+					id: "2D6DB2116F5A32B5"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "151E5989E426CA9C"
+					item: { count: 1, id: "minecraft:iron_sword" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "70024CBC388BEB97"
+					item: { count: 1, id: "minecraft:iron_shovel" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "37C551B6003FFC26"
+					item: { count: 1, id: "minecraft:iron_pickaxe" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "20B58BE83F69DE40"
+					item: { count: 1, id: "minecraft:iron_axe" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "79BDE0A813FBA989"
+					item: { count: 1, id: "minecraft:iron_hoe" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["57509DFCB39D80BE"]
+			id: "33DE3216C24121E0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2AD71D6B9D1BC965"
+					table_id: 5059608323968766604L
+					type: "loot"
+				}
+				{
+					id: "137EAC4D31547E94"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "381879A6CDD5BAD6"
+				item: { count: 1, id: "minecraft:shield" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["57509DFCB39D80BE"]
+			id: "18907AFA6A2452FD"
+			rewards: [
+				{
+					count: 8
+					id: "4CCD11BE4364FC7C"
+					item: {
+						count: 1
+						id: "minecraft:fire_charge"
+					}
+					type: "item"
+				}
+				{
+					id: "7999F2DD2B44D2B4"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "4A0515DCDBB96343"
+				item: { count: 1, id: "minecraft:flint_and_steel" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["17784402778B9036"]
+			id: "3D8EEA84351A415B"
+			rewards: [
+				{
+					count: 16
+					id: "78E6E8716AF15D1F"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "0E3321B2D5FBF1B2"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "109A603A9F949D1C"
+				item: { count: 1, id: "minecraft:furnace" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+	]
+}

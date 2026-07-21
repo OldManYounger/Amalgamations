@@ -1,0 +1,566 @@
+{
+    "type":  "minecraft:chest",
+    "pools":  [
+                  {
+                      "rolls":  {
+                                    "type":  "minecraft:uniform",
+                                    "min":  1,
+                                    "max":  1
+                                },
+                      "bonus_rolls":  0,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  1,
+                                          "name":  "minecraft:written_book",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_components",
+                                                                "components":  {
+                                                                                   "minecraft:written_book_content":  {
+                                                                                                                          "title":  {
+                                                                                                                                        "raw":  "Journal"
+                                                                                                                                    },
+                                                                                                                          "author":  "Unknown",
+                                                                                                                          "pages":  [
+                                                                                                                                        "{\"text\":\"The airspeed velocity of an unladen swallow is roughly 20.1 miles per hour.\"}"
+                                                                                                                                    ]
+                                                                                                                      }
+                                                                               }
+                                                            },
+                                                            {
+                                                                "function":  "minecraft:set_lore",
+                                                                "lore":  [
+                                                                             {
+                                                                                 "text":  "Found in the Tree of Wisdom"
+                                                                             }
+                                                                         ],
+                                                                "mode":  "replace_all"
+                                                            },
+                                                            {
+                                                                "function":  "minecraft:set_name",
+                                                                "name":  "Wisdom 1",
+                                                                "add":  false
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  1,
+                                          "name":  "minecraft:written_book",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_components",
+                                                                "components":  {
+                                                                                   "minecraft:written_book_content":  {
+                                                                                                                          "title":  {
+                                                                                                                                        "raw":  "Journal"
+                                                                                                                                    },
+                                                                                                                          "author":  "Unknown",
+                                                                                                                          "pages":  [
+                                                                                                                                        "{\"text\":\"The entwives are at your mom\u0027s house.\"}"
+                                                                                                                                    ]
+                                                                                                                      }
+                                                                               }
+                                                            },
+                                                            {
+                                                                "function":  "minecraft:set_lore",
+                                                                "lore":  [
+                                                                             {
+                                                                                 "text":  "Found in the Tree of Wisdom"
+                                                                             }
+                                                                         ],
+                                                                "mode":  "replace_all"
+                                                            },
+                                                            {
+                                                                "function":  "minecraft:set_name",
+                                                                "name":  "Wisdom 2",
+                                                                "add":  false
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  1,
+                                          "name":  "minecraft:written_book",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_components",
+                                                                "components":  {
+                                                                                   "minecraft:written_book_content":  {
+                                                                                                                          "title":  {
+                                                                                                                                        "raw":  "Journal"
+                                                                                                                                    },
+                                                                                                                          "author":  "Unknown",
+                                                                                                                          "pages":  [
+                                                                                                                                        "{\"text\":\"The key to understanding Tenet is to watch it inverted.\"}"
+                                                                                                                                    ]
+                                                                                                                      }
+                                                                               }
+                                                            },
+                                                            {
+                                                                "function":  "minecraft:set_lore",
+                                                                "lore":  [
+                                                                             {
+                                                                                 "text":  "Found in the Tree of Wisdom"
+                                                                             }
+                                                                         ],
+                                                                "mode":  "replace_all"
+                                                            },
+                                                            {
+                                                                "function":  "minecraft:set_name",
+                                                                "name":  "Wisdom 3",
+                                                                "add":  false
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  1,
+                                          "name":  "minecraft:written_book",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_components",
+                                                                "components":  {
+                                                                                   "minecraft:written_book_content":  {
+                                                                                                                          "title":  {
+                                                                                                                                        "raw":  "Journal"
+                                                                                                                                    },
+                                                                                                                          "author":  "Unknown",
+                                                                                                                          "pages":  [
+                                                                                                                                        "{\"text\":\"Craisin will stop drying cranberries when he hits 1 million subs on YouTube.\"}"
+                                                                                                                                    ]
+                                                                                                                      }
+                                                                               }
+                                                            },
+                                                            {
+                                                                "function":  "minecraft:set_lore",
+                                                                "lore":  [
+                                                                             {
+                                                                                 "text":  "Found in the Tree of Wisdom"
+                                                                             }
+                                                                         ],
+                                                                "mode":  "replace_all"
+                                                            },
+                                                            {
+                                                                "function":  "minecraft:set_name",
+                                                                "name":  "Wisdom 4",
+                                                                "add":  false
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  1,
+                                          "name":  "minecraft:written_book",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_components",
+                                                                "components":  {
+                                                                                   "minecraft:written_book_content":  {
+                                                                                                                          "title":  {
+                                                                                                                                        "raw":  "Journal"
+                                                                                                                                    },
+                                                                                                                          "author":  "Unknown",
+                                                                                                                          "pages":  [
+                                                                                                                                        "{\"text\":\"Hermitcraft Season 89 will be the last.\"}"
+                                                                                                                                    ]
+                                                                                                                      }
+                                                                               }
+                                                            },
+                                                            {
+                                                                "function":  "minecraft:set_lore",
+                                                                "lore":  [
+                                                                             {
+                                                                                 "text":  "Found in the Tree of Wisdom"
+                                                                             }
+                                                                         ],
+                                                                "mode":  "replace_all"
+                                                            },
+                                                            {
+                                                                "function":  "minecraft:set_name",
+                                                                "name":  "Wisdom 5",
+                                                                "add":  false
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  1,
+                                          "name":  "minecraft:written_book",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_components",
+                                                                "components":  {
+                                                                                   "minecraft:written_book_content":  {
+                                                                                                                          "title":  {
+                                                                                                                                        "raw":  "Journal"
+                                                                                                                                    },
+                                                                                                                          "author":  "Unknown",
+                                                                                                                          "pages":  [
+                                                                                                                                        "{\"text\":\"If you squint hard enoguh everything looks the same.\"}"
+                                                                                                                                    ]
+                                                                                                                      }
+                                                                               }
+                                                            },
+                                                            {
+                                                                "function":  "minecraft:set_lore",
+                                                                "lore":  [
+                                                                             {
+                                                                                 "text":  "Found in the Tree of Wisdom"
+                                                                             }
+                                                                         ],
+                                                                "mode":  "replace_all"
+                                                            },
+                                                            {
+                                                                "function":  "minecraft:set_name",
+                                                                "name":  "Wisdom 6",
+                                                                "add":  false
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  1,
+                                          "name":  "minecraft:written_book",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_components",
+                                                                "components":  {
+                                                                                   "minecraft:written_book_content":  {
+                                                                                                                          "title":  {
+                                                                                                                                        "raw":  "Journal"
+                                                                                                                                    },
+                                                                                                                          "author":  "Unknown",
+                                                                                                                          "pages":  [
+                                                                                                                                        "{\"text\":\"McDonalds chicken nuggets are made of hamsters.\"}"
+                                                                                                                                    ]
+                                                                                                                      }
+                                                                               }
+                                                            },
+                                                            {
+                                                                "function":  "minecraft:set_lore",
+                                                                "lore":  [
+                                                                             {
+                                                                                 "text":  "Found in the Tree of Wisdom"
+                                                                             }
+                                                                         ],
+                                                                "mode":  "replace_all"
+                                                            },
+                                                            {
+                                                                "function":  "minecraft:set_name",
+                                                                "name":  "Wisdom 7",
+                                                                "add":  false
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  1,
+                                          "name":  "minecraft:written_book",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_components",
+                                                                "components":  {
+                                                                                   "minecraft:written_book_content":  {
+                                                                                                                          "title":  {
+                                                                                                                                        "raw":  "Journal"
+                                                                                                                                    },
+                                                                                                                          "author":  "Unknown",
+                                                                                                                          "pages":  [
+                                                                                                                                        "{\"text\":\"You will die at age Â§k999\"}"
+                                                                                                                                    ]
+                                                                                                                      }
+                                                                               }
+                                                            },
+                                                            {
+                                                                "function":  "minecraft:set_lore",
+                                                                "lore":  [
+                                                                             {
+                                                                                 "text":  "Found in the Tree of Wisdom"
+                                                                             }
+                                                                         ],
+                                                                "mode":  "replace_all"
+                                                            },
+                                                            {
+                                                                "function":  "minecraft:set_name",
+                                                                "name":  "Wisdom 8",
+                                                                "add":  false
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  1,
+                                          "name":  "minecraft:written_book",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_components",
+                                                                "components":  {
+                                                                                   "minecraft:written_book_content":  {
+                                                                                                                          "title":  {
+                                                                                                                                        "raw":  "Journal"
+                                                                                                                                    },
+                                                                                                                          "author":  "Unknown",
+                                                                                                                          "pages":  [
+                                                                                                                                        "{\"text\":\"Next year twitter will be renamed to Â§kZ\"}"
+                                                                                                                                    ]
+                                                                                                                      }
+                                                                               }
+                                                            },
+                                                            {
+                                                                "function":  "minecraft:set_lore",
+                                                                "lore":  [
+                                                                             {
+                                                                                 "text":  "Found in the Tree of Wisdom"
+                                                                             }
+                                                                         ],
+                                                                "mode":  "replace_all"
+                                                            },
+                                                            {
+                                                                "function":  "minecraft:set_name",
+                                                                "name":  "Wisdom 9",
+                                                                "add":  false
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  1,
+                                          "name":  "minecraft:written_book",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_components",
+                                                                "components":  {
+                                                                                   "minecraft:written_book_content":  {
+                                                                                                                          "title":  {
+                                                                                                                                        "raw":  "Journal"
+                                                                                                                                    },
+                                                                                                                          "author":  "Unknown",
+                                                                                                                          "pages":  [
+                                                                                                                                        "{\"text\":\"Eating cheetos with chopsticks prevents cheesy hands.\"}"
+                                                                                                                                    ]
+                                                                                                                      }
+                                                                               }
+                                                            },
+                                                            {
+                                                                "function":  "minecraft:set_lore",
+                                                                "lore":  [
+                                                                             {
+                                                                                 "text":  "Found in the Tree of Wisdom"
+                                                                             }
+                                                                         ],
+                                                                "mode":  "replace_all"
+                                                            },
+                                                            {
+                                                                "function":  "minecraft:set_name",
+                                                                "name":  "Wisdom 10",
+                                                                "add":  false
+                                                            }
+                                                        ]
+                                      }
+                                  ]
+                  },
+                  {
+                      "rolls":  4,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  1,
+                                          "name":  "minecraft:golden_apple",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:limit_count",
+                                                                "limit":  {
+                                                                              "min":  1,
+                                                                              "max":  2
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  1,
+                                          "name":  "minecraft:gunpowder",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:limit_count",
+                                                                "limit":  {
+                                                                              "min":  3,
+                                                                              "max":  6
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  1,
+                                          "name":  "minecraft:apple",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:limit_count",
+                                                                "limit":  {
+                                                                              "min":  2,
+                                                                              "max":  4
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  1,
+                                          "name":  "minecraft:glowstone_dust",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:limit_count",
+                                                                "limit":  {
+                                                                              "min":  3,
+                                                                              "max":  6
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  1,
+                                          "name":  "quark:moss_paste",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:limit_count",
+                                                                "limit":  {
+                                                                              "min":  3,
+                                                                              "max":  6
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  1,
+                                          "name":  "minecraft:brown_mushroom",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:limit_count",
+                                                                "limit":  {
+                                                                              "min":  3,
+                                                                              "max":  6
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  1,
+                                          "name":  "minecraft:red_mushroom",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:limit_count",
+                                                                "limit":  {
+                                                                              "min":  3,
+                                                                              "max":  6
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  1,
+                                          "name":  "minecraft:warped_fungus",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:limit_count",
+                                                                "limit":  {
+                                                                              "min":  3,
+                                                                              "max":  6
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  1,
+                                          "name":  "minecraft:crimson_fungus",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:limit_count",
+                                                                "limit":  {
+                                                                              "min":  3,
+                                                                              "max":  6
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  1,
+                                          "name":  "minecraft:string",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:limit_count",
+                                                                "limit":  {
+                                                                              "min":  3,
+                                                                              "max":  8
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  1,
+                                          "name":  "minecraft:nether_wart",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:limit_count",
+                                                                "limit":  {
+                                                                              "min":  3,
+                                                                              "max":  8
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  1,
+                                          "name":  "quark:green_corundum_cluster",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:limit_count",
+                                                                "limit":  {
+                                                                              "min":  3,
+                                                                              "max":  8
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  1,
+                                          "name":  "quark:ancient_fruit",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:limit_count",
+                                                                "limit":  {
+                                                                              "min":  3,
+                                                                              "max":  8
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  1,
+                                          "name":  "minecraft:slime_ball",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:limit_count",
+                                                                "limit":  {
+                                                                              "min":  3,
+                                                                              "max":  8
+                                                                          }
+                                                            }
+                                                        ]
+                                      }
+                                  ]
+                  }
+              ]
+}

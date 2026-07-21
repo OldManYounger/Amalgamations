@@ -1,0 +1,365 @@
+{
+  "name": {
+    "text": {
+      "translate": "Matter Manipulator"
+    }
+  },
+  "appearance": {
+    "custommachinery:ambient_sound": {
+      "sound": "minecraft:"
+    },
+    "custommachinery:block": "industrialforegoing:enchantment_factory",
+    "custommachinery:color": 5636095,
+    "custommachinery:hardness": 3.0975878,
+    "custommachinery:mining_level": "minecraft:needs_diamond_tool"
+  },
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "max_output": 100000,
+      "capacity": 1000000,
+      "max_input": 100000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "input",
+      "max_output": 0,
+      "id": "fluid_input_1",
+      "capacity": 100000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "output",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "max_input": 0,
+      "max_output": 10000,
+      "id": "fluid_output_1",
+      "capacity": 100000
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "item_input_1",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "item_input_2",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "item_input_3",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "item_input_4",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "item_input_5",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "item_input_6",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "item_input_7",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "item_input_8",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "item_input_9",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "item_input_10",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "item_input_11",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "item_input_12",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "item_input_13",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "item_input_14",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "item_input_15",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "item_input_16",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "item_input_17",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "item_input_18",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "item_input_19",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "item_input_20",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "item_input_21",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "item_output_1",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "item_output_2",
+      "mode": "output"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "texture": {
+        "texture": "custommachinery:textures/gui/starry_sky_background.png"
+      },
+      "width": 256,
+      "height": 192
+    },
+    {
+      "type": "custommachinery:config",
+      "x": 1,
+      "y": 1
+    },
+    {
+      "type": "custommachinery:energy",
+      "x": 234,
+      "y": 111,
+      "height": 78
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluid_input_1",
+      "x": 2,
+      "y": 23
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluid_output_1",
+      "x": 234,
+      "y": 23
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 47,
+      "y": 112
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 166,
+      "y": 44,
+      "texture_empty": {
+        "texture": "custommachinery:textures/gui/custom_progress_bar_empty.png"
+      },
+      "texture_filled": {
+        "texture": "custommachinery:textures/gui/custom_progress_bar_filled.png"
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "item_input_1",
+      "x": 25,
+      "y": 23
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "item_input_2",
+      "x": 45,
+      "y": 23
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "item_input_3",
+      "x": 65,
+      "y": 23
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "item_input_4",
+      "x": 85,
+      "y": 23
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "item_input_5",
+      "x": 105,
+      "y": 23
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "item_input_6",
+      "x": 125,
+      "y": 23
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "item_input_7",
+      "x": 145,
+      "y": 23
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "item_input_8",
+      "x": 25,
+      "y": 43
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "item_input_9",
+      "x": 45,
+      "y": 43
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "item_input_10",
+      "x": 65,
+      "y": 43
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "item_input_11",
+      "x": 85,
+      "y": 43
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "item_input_12",
+      "x": 105,
+      "y": 43
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "item_input_13",
+      "x": 125,
+      "y": 43
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "item_input_14",
+      "x": 145,
+      "y": 43
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "item_input_15",
+      "x": 25,
+      "y": 63
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "item_input_16",
+      "x": 45,
+      "y": 63
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "item_input_17",
+      "x": 65,
+      "y": 63
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "item_input_18",
+      "x": 85,
+      "y": 63
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "item_input_19",
+      "x": 105,
+      "y": 63
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "item_input_20",
+      "x": 125,
+      "y": 63
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "item_input_21",
+      "x": 145,
+      "y": 63
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "item_output_1",
+      "x": 193,
+      "y": 33
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "item_output_2",
+      "x": 193,
+      "y": 54
+    }
+  ]
+}

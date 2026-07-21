@@ -1,0 +1,355 @@
+{
+	id: "463756F6B4C4928C"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "basic_resources"
+	}
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 64
+			id: "2F0A9D14C61E8B33"
+			item: {
+				count: 1
+				id: "minecraft:cobblestone"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 64
+			id: "6C2D80E4A9B1750F"
+			item: {
+				count: 1
+				id: "minecraft:dirt"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 64
+			id: "4D09A723B8E1F65A"
+			item: {
+				count: 1
+				id: "minecraft:stone"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 64
+			id: "687C72C3DC034EB0"
+			item: {
+				count: 1
+				id: "minecraft:cobbled_deepslate"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 48
+			id: "0E38F4C7A25D91B6"
+			item: {
+				count: 1
+				id: "minecraft:sand"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 48
+			id: "52F7A8D1C39B604E"
+			item: {
+				count: 1
+				id: "minecraft:gravel"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 32
+			id: "37489513FDC28EAA"
+			item: {
+				count: 1
+				id: "minecraft:clay_ball"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 16
+			id: "0654EBB480D06B6E"
+			item: {
+				count: 1
+				id: "minecraft:flint"
+			}
+			weight: 2.5f
+		}
+		{
+			count: 32
+			id: "43DD9FC0EA3D4768"
+			item: {
+				count: 1
+				id: "minecraft:oak_log"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 32
+			id: "13F0B6D84A9E25C7"
+			item: {
+				count: 1
+				id: "minecraft:spruce_log"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 32
+			id: "71D6C09F2A4B8E35"
+			item: {
+				count: 1
+				id: "minecraft:birch_log"
+			}
+			weight: 3.5f
+		}
+		{
+			count: 32
+			id: "3B710CBF3CB362DC"
+			item: {
+				count: 1
+				id: "minecraft:jungle_log"
+			}
+			weight: 2.5f
+		}
+		{
+			count: 32
+			id: "625F952069162707"
+			item: {
+				count: 1
+				id: "minecraft:acacia_log"
+			}
+			weight: 2.5f
+		}
+		{
+			count: 32
+			id: "3B8E74C1A09D652F"
+			item: {
+				count: 1
+				id: "minecraft:dark_oak_log"
+			}
+			weight: 2.5f
+		}
+		{
+			count: 24
+			id: "48463FC8394CF2F6"
+			item: {
+				count: 1
+				id: "minecraft:mangrove_log"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 24
+			id: "2BDDDDD06D8E9E04"
+			item: {
+				count: 1
+				id: "minecraft:cherry_log"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 32
+			id: "59B3D7E1A84C062F"
+			item: {
+				count: 1
+				id: "minecraft:bamboo"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 24
+			id: "123B6A7A12BBE798"
+			item: {
+				count: 1
+				id: "minecraft:coal"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 24
+			id: "459FC66AB330771C"
+			item: {
+				count: 1
+				id: "minecraft:charcoal"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 32
+			id: "4C7E1D90A6B8352F"
+			item: {
+				count: 1
+				id: "minecraft:copper_ingot"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 16
+			id: "7BB191F2CB5F0D18"
+			item: {
+				count: 1
+				id: "minecraft:iron_ingot"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 12
+			id: "037B5A4ACE286DD9"
+			item: {
+				count: 1
+				id: "minecraft:gold_ingot"
+			}
+			weight: 1.5f
+		}
+		{
+			count: 32
+			id: "5DF4A61C0AE05EFB"
+			item: {
+				count: 1
+				id: "minecraft:redstone"
+			}
+			weight: 2.5f
+		}
+		{
+			count: 24
+			id: "1A5C8E37D920F64B"
+			item: {
+				count: 1
+				id: "minecraft:lapis_lazuli"
+			}
+			weight: 2.5f
+		}
+		{
+			count: 24
+			id: "1F6A3390A248602F"
+			item: {
+				count: 1
+				id: "minecraft:quartz"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 16
+			id: "63E9A2C7410D8B5F"
+			item: {
+				count: 1
+				id: "minecraft:amethyst_shard"
+			}
+			weight: 1.5f
+		}
+		{
+			count: 8
+			id: "0ED6F94BED2DFCA1"
+			item: {
+				count: 1
+				id: "minecraft:obsidian"
+			}
+		}
+		{
+			count: 4
+			id: "20C6F8A91D4E753B"
+			item: {
+				count: 1
+				id: "minecraft:emerald"
+			}
+			weight: 0.75f
+		}
+		{
+			count: 2
+			id: "27FB4DF0724E7C9E"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+			weight: 0.4f
+		}
+		{
+			count: 24
+			id: "5C09E7B31A6D824F"
+			item: {
+				count: 1
+				id: "minecraft:string"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 24
+			id: "0B74BEB3F9766A77"
+			item: {
+				count: 1
+				id: "minecraft:bone"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 16
+			id: "402BF80059DE3B0C"
+			item: {
+				count: 1
+				id: "minecraft:gunpowder"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 12
+			id: "73D8F0A62C1E945B"
+			item: {
+				count: 1
+				id: "minecraft:leather"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 16
+			id: "0F95A3C8D61B742E"
+			item: {
+				count: 1
+				id: "minecraft:feather"
+			}
+			weight: 2.5f
+		}
+		{
+			count: 24
+			id: "426A3BF7FCE96C7A"
+			item: {
+				count: 1
+				id: "minecraft:paper"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 8
+			id: "6A2D91F0C8E7354B"
+			item: {
+				count: 1
+				id: "minecraft:slime_ball"
+			}
+		}
+		{
+			count: 8
+			id: "5444702617DB5D04"
+			item: {
+				count: 1
+				id: "minecraft:honeycomb"
+			}
+		}
+		{
+			count: 32
+			id: "5F9261B0EB6EB570"
+			item: {
+				count: 1
+				id: "minecraft:glass"
+			}
+			weight: 3.0f
+		}
+	]
+}

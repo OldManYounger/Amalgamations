@@ -1,0 +1,40 @@
+{
+	autofocus_id: "153AA2C2E5939A41"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "applied_energistics_2"
+	group: "535D83E8069855F2"
+	icon: {
+		id: "ae2:controller"
+	}
+	id: "637D38B98B733008"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["787980D578679D88"]
+		dependency_requirement: "all_started"
+		icon: {
+			id: "ae2:meteorite_compass"
+		}
+		id: "153AA2C2E5939A41"
+		rewards: [
+			{
+				exclude_from_claim_all: true
+				id: "608C5F5CD2B73E42"
+				table_id: 5059608323968766604L
+				type: "loot"
+			}
+			{
+				id: "491126E082E87D5C"
+				type: "xp"
+				xp: 100
+			}
+		]
+		tasks: [{
+			id: "2CCD1F4A059221DC"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

@@ -1,0 +1,39 @@
+# IDE/editor state
+.idea/
+.vscode/
+
+# KubeJS generated editor/config files
+kubejs/client_scripts/jsconfig.json
+kubejs/server_scripts/jsconfig.json
+kubejs/startup_scripts/jsconfig.json
+kubejs/config/probe-settings.json
+
+# Minecraft/generated debug output
+.mixin.out/
+.probe/
+
+# Local scripts
+*.bat
+*.ps1
+
+# FTB Quests generated language split/merge files
+config/ftbquests/quests/lang/*.snbt
+config/ftbquests/quests/lang/recovery/*.snbt
+config/ftbquests/quests/lang/**/*.snbt_merged
+
+# Runtime state, in case it is copied accidentally
+logs/
+crash-reports/
+saves/
+screenshots/
+cache/
+downloads/
+options.txt
+servers.dat
+servers.dat_old
+usercache.json
+usernamecache.json
+
+# Downloaded mod jars
+mods/
+*.jar

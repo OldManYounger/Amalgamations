@@ -1,0 +1,151 @@
+{
+  "name": {
+    "text": {
+      "translate": "Power Crusher"
+    }
+  },
+  "appearance": {
+    "running": {
+      "custommachinery:light": 15
+    },
+    "custommachinery:color": 170
+  },
+  "components": [
+    {
+      "type": "custommachinery:contraption",
+      "stress_impact": 64.0
+    },
+    {
+      "type": "custommachinery:energy",
+      "capacity": 60000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "input",
+      "unique": true,
+      "max_input": 10000,
+      "max_output": 10000,
+      "id": "fluid_input",
+      "capacity": 100000
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input2",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output1",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output2",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output3",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "upgrade",
+      "mode": "input"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "texture": {
+        "texture": "custommachinery:textures/gui/starry_sky_background.png"
+      },
+      "width": 256,
+      "height": 192
+    },
+    {
+      "type": "custommachinery:energy",
+      "x": 46,
+      "y": 30
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluid_input",
+      "x": 28,
+      "y": 30,
+      "width": 14,
+      "height": 44
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 46,
+      "y": 79
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 115,
+      "y": 30
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input",
+      "x": 66,
+      "y": 30
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input2",
+      "x": 86,
+      "y": 30
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output1",
+      "x": 149,
+      "y": 30
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output2",
+      "x": 170,
+      "y": 30
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output3",
+      "x": 191,
+      "y": 30
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "upgrade",
+      "x": 119,
+      "y": 50
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 235,
+      "y": 5
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 6,
+      "y": 5,
+      "text": {
+        "text": {
+          "translate": "Power Crusher"
+        },
+        "color": "white"
+      }
+    }
+  ],
+  "catalysts": [
+    "custommachinery:magic_spawner",
+    "custommachinery:stone_generator"
+  ]
+}

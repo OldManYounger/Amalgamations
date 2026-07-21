@@ -1,0 +1,69 @@
+{
+	"type": "custommachinery:custom_machine",
+	"machine": "kubejs:power_crusher",
+	"time": 100,
+	"requirements": [
+		{
+			"type": "custommachinery:item",
+			"ingredient": {
+				"item": "minecraft:stone",
+				"count": 1
+			},
+			"mode": "input"
+		},
+		{
+			"type": "custommachinery:energy_per_tick",
+			"amount": 20,
+			"mode": "input"
+		},
+		{
+			"type": "custommachinery:item",
+			"ingredient": {
+				"item": "minecraft:gravel",
+				"count": 1
+			},
+			"mode": "output"
+		},
+		{
+			"type": "custommachinery:item",
+			"ingredient": {
+				"item": "minecraft:gravel",
+				"count": 1
+			},
+			"mode": "output",
+			"chance": 0.5
+		},
+		{
+			"type": "custommachinery:item",
+			"ingredient": {
+				"item": "minecraft:nether_star",
+				"count": 1
+			},
+			"mode": "output",
+			"chance": 0.1
+		},
+		{
+			"type": "custommachinery:structure",
+			"pattern": [
+					[
+						"aaa",
+						"a a",
+						"aaa",
+						"   ",
+						" m "
+					],
+					[
+						"a a",
+						"   ",
+						"a a",
+						"   ",
+						"   "
+					]
+			],
+			"keys": {
+				"a": "extendedcrafting:nether_star_block"
+			}
+
+		}
+	]
+}
